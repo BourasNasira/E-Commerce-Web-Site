@@ -1,0 +1,15 @@
+.new-arrival {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .new-arrival h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .new-arrival p {
+    margin-top: 10px;
+    color: #555;
+  }
+  

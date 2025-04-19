@@ -1,0 +1,106 @@
+.home-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shop-btn {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* .hero-image img {
+  width: 50px;
+  border-radius: 10px;
+} */
+
+.categories {
+  text-align: center;
+  cursor: pointer;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.category-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.category-card img:hover {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 150px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  font-weight: bold;
+}
+
+.newsletter input {
+  padding: 8px;
+  width: 70%;
+  margin-right: 5px;
+}
+
+.newsletter button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 14px;
+}

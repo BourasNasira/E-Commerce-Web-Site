@@ -1,0 +1,15 @@
+.contact {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .contact h1 {
+    color: #222;
+    font-size: 2rem;
+  }
+  
+  .contact p {
+    margin-top: 10px;
+    color: #444;
+  }
+  
